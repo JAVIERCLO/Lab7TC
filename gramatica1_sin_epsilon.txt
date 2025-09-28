@@ -1,7 +1,0 @@
-# Gramática simplificada (sin producciones-ε)
-# Símbolo inicial: S
-
-A → C
-B → A | S
-C → S
-S → 11 | B | 0A0 | BB | 00 | 1B1

@@ -1,6 +1,0 @@
-# Gramática simplificada (sin producciones-ε)
-# Símbolo inicial: S
-
-A → B | S
-B → b
-S → ASA | a | S | SA | AS | aB
