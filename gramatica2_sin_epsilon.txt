@@ -1,0 +1,8 @@
+# Gramática simplificada (sin producciones-ε)
+# Símbolo inicial: S
+
+A → a | C
+B → C | b
+C → E | DE | CDE | CE
+D → A | B | ab
+S → bBb | aa | aAa | bb

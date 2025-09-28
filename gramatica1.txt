@@ -1,0 +1,6 @@
+# [A-Z](\s)*→(\s)*([A-Za-z0-9ε]|(\s)*|(\|))*
+# Gramática 1 del ejercicio
+S → 0A0 | 1B1 | BB
+A → C
+B  S | A
+C → S | ε
